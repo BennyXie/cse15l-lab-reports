@@ -91,26 +91,3 @@ BENNY, let's go!
     ```
     Take heed of this! "-E" does not count the total times of appearance, but only the lines, 
     so here, only 4 lines contain "is", while there are actually 5 "is".
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
