@@ -1,5 +1,5 @@
 # Ways to Use "grep"
-### All cited from https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
+### All cited from [cyberciti.biz](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/)
 The following is the content of /written_2.txt:
 ```
 Benny is the best.
@@ -75,7 +75,15 @@ BENNY, let's go!
     $ grep -E "resist|not" written_2.txt
     I could not resist his charisma.
     ```
-    Although "resist" and "not" all appeared in this line, it only apppears once. So be aware!
+    Although "resist" and "not" all appeared in this line, it only apppears once. So be aware!  
+      
+    Also, remember that it is "-E", not "-e"!
+    ```
+    Tian@PizzaHut MINGW64 ~/GitHub_Workspace/cse15l-lab-reports (main)
+    $ grep -e "Benny|go" written_2.txt
+    
+    ```
+    If we use "-e", grep cannot recognise "Benny|go" as two words that we are looking for.
 4. grep -c  
     What if we want to know in how many lines did a word appear in this file?
     ```
@@ -89,5 +97,5 @@ BENNY, let's go!
     $ grep -c "is" written_2.txt
     4
     ```
-    Take heed of this! "-E" does not count the total times of appearance, but only the lines, 
+    Take heed of this! "-c" does not count the total times of appearance, but only the lines, 
     so here, only 4 lines contain "is", while there are actually 5 "is".
