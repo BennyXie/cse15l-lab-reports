@@ -1,4 +1,4 @@
-# Ways to Use "grep"  
+# Ways to Use "Alias"  
 ## All cited from [cyberciti.biz](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html)  
 Alias is a way to make shortcut for your bash terminal. It significantly saves your time. Here are the ways to use it.  
 ### Alias  
